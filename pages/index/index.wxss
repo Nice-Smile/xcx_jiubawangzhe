@@ -1,0 +1,44 @@
+.info {
+    color: #eee;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}
+
+page {
+    background-color: #222831;
+}
+
+.title {
+    font-size: 70rpx;
+    font-weight: 700;
+}
+
+.des {
+    font-size: 35rpx;
+    margin-top: 20rpx;
+}
+
+.start {
+    border: 5rpx solid #eee;
+    border-radius: 50rpx;
+    bottom: 200rpx;
+    box-shadow: 5rpx 10rpx 30rpx #919191;
+    color: #eee;
+    left: 50%;
+    padding: 20rpx 70rpx;
+    transform: translateX(-50%);
+}
+
+.start,.tips {
+    position: absolute;
+}
+
+.tips {
+    bottom: 50rpx;
+    color: #9d9d9d;
+    font-size: 24rpx;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,65 @@
+page {
+    background-color: #222831;
+}
+
+.age-next {
+    background-color: #393e46;
+    bottom: 0;
+    box-shadow: 0 -1rpx 20rpx #6c7584;
+    color: #eee;
+    height: 100rpx;
+    line-height: 100rpx;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.info {
+    overflow-y: auto;
+    padding-bottom: 200rpx;
+    width: 100%;
+}
+
+.bottom {
+    height: 200rpx;
+}
+
+.items {
+    display: flex;
+    margin: 30rpx auto auto;
+    width: 90%;
+}
+
+.age {
+    border-radius: 50%;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    width: 100rpx;
+}
+
+.age,.des-info {
+    background-color: #393e46;
+    color: #eee;
+}
+
+.des-info {
+    -webkit-box-flex: 1;
+    border-radius: 20rpx;
+    flex: 1;
+    margin-left: 30rpx;
+    padding: 20rpx;
+}
+
+.ins {
+    color: #3f536e;
+    opacity: .7;
+}
+
+.bg {
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}

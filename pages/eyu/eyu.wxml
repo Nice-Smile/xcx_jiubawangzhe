@@ -1,0 +1,42 @@
+<view class="main">
+    <image class="backimage" src="http://inews.gtimg.com/newsapp_ls/0/14021549001/0"></image>
+    <view bindtap="yachi" class="wuchi">
+        <image animation="{{ani}}" mode="widthFix" src="http://touzi.115xy.com/wuchi.png"></image>
+    </view>
+    <view bindtap="xuan" class="ya yi" data-cid="1">
+        <image animation="{{ani}}" mode="widthFix" src="{{yachi[1]}}"></image>
+    </view>
+    <view bindtap="xuan" class="ya er" data-cid="2">
+        <image animation="{{ani}}" mode="widthFix" src="{{yachi[2]}}"></image>
+    </view>
+    <view bindtap="xuan" class="ya san" data-cid="3">
+        <image animation="{{ani}}" mode="widthFix" src="{{yachi[3]}}"></image>
+    </view>
+    <view bindtap="xuan" class="ya si" data-cid="4">
+        <image animation="{{ani}}" mode="widthFix" src="{{yachi[4]}}"></image>
+    </view>
+    <view bindtap="xuan" class="ya wu" data-cid="5">
+        <image animation="{{ani}}" mode="widthFix" src="{{yachi[5]}}"></image>
+    </view>
+    <view bindtap="xuan" class="ya liu" data-cid="6">
+        <image animation="{{ani}}" mode="widthFix" src="{{yachi[6]}}"></image>
+    </view>
+    <view bindtap="xuan" class="ya qi" data-cid="7">
+        <image animation="{{ani}}" mode="widthFix" src="{{yachi[7]}}"></image>
+    </view>
+    <view bindtap="xuan" class="ya ba" data-cid="8">
+        <image animation="{{ani}}" mode="widthFix" src="{{yachi[8]}}"></image>
+    </view>
+ 
+    <view class="hejiu" style="{{hejiu?'display:block':'display:none'}}">
+        <view animation="{{ani}}" class="yao">
+            <image mode="widthFix" src="http://touzi.115xy.com/yao.png"></image>
+        </view>
+       
+        <view bindtap="chonglai" class="chonglai">
+            <image mode="widthFix" src="/pages/img/again.png"></image>
+        </view>
+        
+    </view>
+  
+</view>

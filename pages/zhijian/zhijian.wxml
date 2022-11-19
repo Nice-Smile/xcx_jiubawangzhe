@@ -1,0 +1,12 @@
+<view catchtouchend="touchend" catchtouchstart="bindViewTap" style="width:{{windowWidth}}px;height:{{windowHeight}}px; ">
+    <view data-index="{{index}}" style="position: fixed;left:{{item.x}}px;top:{{item.y}}px;;animation-name: {{item.animation_name}}" wx:for="{{xy}}">
+        <view class="yi" style="background: {{item.color}};border-color:{{item.color}} ; box-shadow:inset 1px 1px {{item.shadow}}px {{item.color}};animation-name: {{item.animation_name}} "></view>
+        <view class="si" style="border-color:{{item.color}}; animation-name: {{item.animation_name}}"></view>
+        <view class="er" style="border-color:{{item.color}}; animation-name: {{item.animation_name}}"></view>
+        <view class="san" style="border-color:{{item.color}}; animation-name: {{item.animation_name}}"></view>
+    </view>
+</view>
+<view catchtouchstart="start_btu" class="start_btu" data-type="{{start_but.type}}" wx:if="{{start_but.status}}">{{start_but.title}}</view>
+<view class="clearCountDownTime" style="width:{{windowWidth}}px;height:{{windowHeight}}px; ">
+{{CountDownNum}}
+</view>

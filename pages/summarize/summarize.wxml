@@ -1,0 +1,10 @@
+<view class="summarize">
+    <view class="info">
+        <view class="{{['item',item.grade==0?'':item.grade==1?'one':item.grade==2?'two':'three']}}" wx:for="{{items}}" wx:for-index="__i0__" wx:key="title">
+            <view class="title">{{''+item.title+'：'}}</view>
+            <view class="des">{{''+item.num}}<text style="margin-left:15rpx;">{{item.tips}}</text>
+            </view>
+        </view>
+    </view>
+    <view bindtap="__e" class="again" data-event-opts="{{[ [ 'tap',[ [ 'again',['$event'] ] ] ] ]}}">含泪重开</view>
+</view>

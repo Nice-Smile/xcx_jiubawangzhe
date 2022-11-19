@@ -1,0 +1,29 @@
+<view class="main">
+    <image class="backimage" src="http://inews.gtimg.com/newsapp_ls/0/14021549001/0"></image>
+    <view class="wrap">
+        <image bindtap="chicktou" data-cid="1" src="{{datou[1]}}"></image>
+        <image bindtap="chicktou" data-cid="2" src="{{datou[2]}}"></image>
+        <image bindtap="chicktou" data-cid="3" src="{{datou[3]}}"></image>
+        <image bindtap="chicktou" data-cid="4" src="{{datou[4]}}"></image>
+        <image bindtap="chicktou" data-cid="5" src="{{datou[5]}}"></image>
+        <image bindtap="chicktou" data-cid="6" src="{{datou[6]}}"></image>
+        <image bindtap="chicktou" data-cid="7" src="{{datou[7]}}"></image>
+        <image bindtap="chicktou" data-cid="8" src="{{datou[8]}}"></image>
+        <image bindtap="chicktou" data-cid="9" src="{{datou[9]}}"></image>
+        <image bindtap="chicktou" data-cid="10" src="{{datou[10]}}"></image>
+        <image bindtap="chicktou" data-cid="11" src="{{datou[11]}}"></image>
+        <image bindtap="chicktou" data-cid="12" src="{{datou[12]}}"></image>
+        <image bindtap="chicktou" data-cid="13" src="{{datou[13]}}"></image>
+        <image bindtap="chicktou" data-cid="14" src="{{datou[14]}}"></image>
+        <image bindtap="chicktou" data-cid="15" src="{{datou[15]}}"></image>
+        <image bindtap="chicktou" data-cid="16" src="{{datou[16]}}"></image>
+    </view>
+</view>
+<view class="hejiu" style="{{hejiu?'display:block':'display:none'}}">
+    <view class="yao">
+        <image mode="widthFix" src="http://touzi.115xy.com/he.png"></image>
+    </view>
+    <view bindtap="chonglai" class="chonglai">
+        <image mode="widthFix" src="/pages/img/again.png"></image>
+    </view>
+</view>

@@ -1,0 +1,19 @@
+<view class="attributes">
+    <view class="hand">
+        <view class="title">调整初始属性</view>
+        <view class="dec">{{'可用属性点：'+attNum+''}}</view>
+    </view>
+    <view class="info">
+        <view class="item" wx:for="{{items}}" wx:key="name">
+            <view class="msg">{{''+item.name+''}}</view>
+            <view class="calculate">
+                <view bindtap="__e" class="control" data-event-opts="{{[ [ 'tap',[ [ 'reduce',[index] ] ] ] ]}}">-</view>
+                <view class="input">{{''+item.num+''}}</view>
+                <view bindtap="__e" class="control" data-event-opts="{{[ [ 'tap',[ [ 'add',[index] ] ] ] ]}}">+</view>
+            </view>
+        </view>
+    </view>
+    <view class="share">{{''+shareAd[shareNum]+'增加10属性点'}}<button openType="share" wx:if="{{shareNum==1}}"></button>
+    </view>
+    <view bindtap="__e" class="start" data-event-opts="{{[ [ 'tap',[ [ 'start',['$event'] ] ] ] ]}}">开启新的人生</view>
+</view>

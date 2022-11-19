@@ -1,0 +1,28 @@
+<view bindtap="modelMenu" class="container" style="background:{{spColor}};background-size: cover;">
+    <view class="menu-box" hidden="{{hideMenu}}">
+        <text catchtap="onBackTap" class="menu-back" style="height:{{back_height}}px; line-height:{{back_height}}px; top:{{back_top}}px">返回</text>
+        <view class="menu-body">
+            <view class="menu">
+                <view class="item no-border">
+                    <view catchtap="onColor" class="a">
+                        <image class="icon" src="/pages/img/yanse.png"></image>
+                        <text class="txt">{{colorNum}}色</text>
+                    </view>
+                </view>
+                <view class="item no-border">
+                    <view catchtap="onKuai" class="a">
+                        <image class="icon" src="/pages/img/sudu.png"></image>
+                        <text class="txt">速度{{spInterval}}ms</text>
+                    </view>
+                </view>
+                <view class="item no-border">
+                    <view catchtap="onYinyue" class="a">
+                        <image class="icon" src="/pages/img/yinyue.png"></image>
+                        <text class="txt">音乐{{videoNum}}</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <audio id="music" src="http://gongju.115xy.com/2.mp3"></audio>
+</view>

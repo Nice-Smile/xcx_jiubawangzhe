@@ -1,0 +1,90 @@
+.start {
+    border: 5rpx solid #eee;
+    border-radius: 50rpx;
+    box-shadow: 5rpx 10rpx 30rpx #919191;
+    color: #cecece;
+    left: 50%;
+    padding: 20rpx 70rpx;
+    position: absolute;
+    top: 40%;
+    transform: translateX(-50%);
+}
+
+page {
+    background-color: #222831;
+}
+
+.select-item {
+    background-color: silver;
+}
+
+.tips {
+    color: #eee;
+    margin-top: 40rpx;
+    opacity: .7;
+    padding-bottom: 100rpx;
+    width: 100%;
+}
+
+.options,.tips {
+    text-align: center;
+}
+
+.items {
+    border-radius: 50rpx;
+    color: #cecece;
+    margin: 20rpx auto auto;
+    padding: 20rpx;
+    width: 70%;
+}
+
+.zero {
+    border: 5rpx solid #c1c1c1;
+}
+
+.one {
+    border: 8rpx solid #74bfff;
+    box-shadow: 0rpx 5rpx 10rpx #74bfff;
+}
+
+.two {
+    border: 8rpx solid #e2a7ff;
+    box-shadow: 0rpx 5rpx 10rpx #f2d7ff;
+}
+
+.three {
+    border: 8rpx solid #e9c545;
+    box-shadow: 0rpx 5rpx 10rpx #f5e4a7;
+}
+
+.share {
+    border: 5rpx solid #eee;
+    border-radius: 50rpx;
+    box-shadow: 5rpx 10rpx 30rpx #919191;
+    color: #eee;
+    margin: 30rpx auto auto;
+    padding: 20rpx;
+    position: relative;
+    text-align: center;
+    width: 350rpx;
+}
+
+button {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.game {
+    border: 5rpx solid #eee;
+    border-radius: 50rpx;
+    box-shadow: 5rpx 10rpx 30rpx #919191;
+    color: #eee;
+    margin: 100rpx auto auto;
+    padding: 20rpx;
+    text-align: center;
+    width: 350rpx;
+}

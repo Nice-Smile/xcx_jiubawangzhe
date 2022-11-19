@@ -1,0 +1,10 @@
+<view class="select">
+    <view bindtap="__e" class="start" data-event-opts="{{[ [ 'tap',[ [ 'drawCard',['$event'] ] ] ] ]}}" wx:if="{{!isSelect}}">十连抽</view>
+    <view class="options">
+        <view bindtap="__e" class="{{[ 'items',gradeColor[item.grade] ]}}" data-event-opts="{{[ [ 'tap',[ [ 'selectChange',[index] ] ] ] ]}}" style="{{item.select?'background-color:#585858':''}}" wx:for="{{select}}" wx:key="id">{{''+item.name+'('+item.description+')'}}</view>
+    </view>
+    <view bindtap="__e" class="game" data-event-opts="{{[ [ 'tap',[ [ 'jump',['$event'] ] ] ] ]}}" wx:if="{{isSelect}}">调整初始属性</view>
+    <view class="share" wx:if="{{isSelect}}">{{''+shareAd[shareNum]+'惊喜十连抽'}}<button openType="share" wx:if="{{shareNum==1}}"></button>
+    </view>
+    <view class="tips" wx:if="{{isSelect}}">请选择三个天赋</view>
+</view>

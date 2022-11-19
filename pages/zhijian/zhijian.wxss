@@ -1,0 +1,147 @@
+page {
+    background: #000;
+}
+
+.b_page {
+    color: #fff;
+    font-size: 150rpx;
+    opacity: .1;
+    top: 0rpx;
+    z-index: -100;
+}
+
+.b_page,.start_btu {
+    font-family: Georgia;
+    position: absolute;
+    text-align: center;
+}
+
+.start_btu {
+    background: #ffcc32;
+    border-radius: 20rpx;
+    color: #000;
+    font-size: 36rpx;
+    font-weight: 700;
+    height: 120rpx;
+    left: 30%;
+    letter-spacing: 20rpx;
+    line-height: 120rpx;
+    text-indent: 20rpx;
+    top: 40%;
+    transform: rotate(90deg);
+    width: 300rpx;
+    z-index: 100;
+}
+
+.clearCountDownTime {
+    color: #fff;
+    font-family: Georgia;
+    font-size: 900rpx;
+    opacity: .1;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    z-index: -100;
+}
+
+@-webkit-keyframes spin1 {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(1turn) scale(2);
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+@keyframes spin1 {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(1turn) scale(2);
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(1turn) scale(1.3);
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(1turn) scale(1.3);
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+.yi {
+    animation: spin 1.5s .2s infinite;
+    border-radius: 50%;
+    height: 80px;
+    left: 58px;
+    opacity: .5;
+    position: absolute;
+    top: 58px;
+    width: 80px;
+    z-index: 1;
+}
+
+.si {
+    height: 90px;
+    left: 52px;
+    top: 52px;
+    width: 90px;
+}
+
+.er,.si {
+    animation: spin 1.5s .2s infinite;
+    border: 1px solid #189c90;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.er {
+    height: 110px;
+    left: 40px;
+    top: 40px;
+    width: 110px;
+}
+
+.san {
+    animation: spin 1.5s .4s infinite;
+    border: 1px solid #189c90;
+    border-radius: 50%;
+    height: 140px;
+    left: 25px;
+    position: absolute;
+    top: 25px;
+    width: 140px;
+    z-index: 31;
+}

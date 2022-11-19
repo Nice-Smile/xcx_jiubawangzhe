@@ -1,0 +1,50 @@
+page {
+    background-color: #222831;
+    color: #d5d5d5;
+}
+
+.again {
+    border: 5rpx solid #eee;
+    border-radius: 50rpx;
+    bottom: 100rpx;
+    left: 50%;
+    padding: 20rpx;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    width: 300rpx;
+}
+
+.item {
+    border: 5rpx solid #2c405a;
+    border-radius: 15rpx;
+    display: flex;
+    font-weight: 700;
+    margin: 20rpx auto auto;
+    width: 90%;
+}
+
+.title {
+    padding-bottom: 20rpx;
+    padding-top: 20rpx;
+    text-align: center;
+    width: 150rpx;
+}
+
+.des {
+    -webkit-box-flex: 1;
+    flex: 1;
+    padding: 20rpx;
+}
+
+.one {
+    border: 8rpx solid #74bfff;
+}
+
+.two {
+    border: 8rpx solid #e2a7ff;
+}
+
+.three {
+    border: 8rpx solid #ffa07a;
+}

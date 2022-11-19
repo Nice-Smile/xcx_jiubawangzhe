@@ -1,0 +1,47 @@
+<view class="main">
+    <view class="yaoqing">
+        <button openType="share">邀请好友</button>
+    </view>
+   
+    <view class="touzi">
+        <image bindtap="totouzi" mode="widthFix" src="/pages/img/icon/touzi.png"></image>
+    </view>
+    <view class="er">
+        <view class="zhijian">
+            <image bindtap="tozhijian" mode="widthFix" src="/pages/img/icon/zhijian.png"></image>
+        </view>
+        <view class="dengguang">
+            <image bindtap="todengguang" class="tu" mode="widthFix" src="/pages/img/icon/dengguang.png"></image>
+        </view>
+        <view class="dengguang">
+            <image bindtap="tozhuanpan" class="tu" mode="widthFix" src="/pages/img/icon/zhuanpan.png"></image>
+        </view>
+    </view>
+    <view class="san">
+        <image bindtap="todage" class="tu" mode="widthFix" src="/pages/img/icon/dage.png"></image>
+    </view>
+    <view class="san">
+        <image bindtap="toeyu" class="tu" mode="widthFix" src="/pages/img/icon/eyu.png"></image>
+    </view>
+    <view class="san">
+        <image bindtap="" class="tu" mode="widthFix" src=""></image>
+    </view>
+    <view class="san">
+        <image bindtap="" class="tu" mode="widthFix" src=""></image>
+    </view>
+</view>
+<view class="er">
+    <!--<view class="zhijian1" >
+        <image  bindtap="gonghzong" mode="widthFix" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2F81%2Fb6%2F83%2F81b683f66fe682468be8c328ba1f932d.jpeg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643697744&t=2fba71bb1b33eab8409fe88b83402fdf"></image>
+    </view>-->
+    <navigator appId="" class="zhijian1" extraData="" openType="navigate"  target="miniProgram" version="release">
+        <image mode="widthFix" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F02%2F02%2F76%2F599d46a4a5097_610.jpg&refer=http%3A%2F%2Fpic.51yuansu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643696808&t=e6529b67cf47e29dafdc0d50778baaf3"></image>
+    </navigator>
+    <navigator appId="" class="zhijian1" extraData="" openType="navigate"  target="miniProgram" version="release">
+        <image mode="widthFix" src="http://inews.gtimg.com/newsapp_ls/0/13794680358/0"></image>
+    </navigator>
+    <navigator appId="" class="zhijian1" extraData="" openType="navigate"  target="miniProgram" version="release">
+        <image mode="widthFix" src="http://inews.gtimg.com/newsapp_ls/0/13794712572/0"></image>
+    </navigator>
+   <!--<ad unit-id="yanjiahao"></ad>-->
+</view>

@@ -1,0 +1,23 @@
+{
+    "pages": [
+        "pages/other/other",
+        "pages/eyu/eyu",
+        "pages/dage/dage",
+        "pages/index/index",
+        "pages/zhijian/zhijian",
+        "pages/shezhi/shezhi",
+        "pages/gameplay/gameplay",
+        "pages/zhuanpan/zhuanpan",
+        "pages/index3/index",
+        "pages/web/web",
+        "pages/dengguang/dengguang"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "white"
+    },
+    "sitemapLocation": "sitemap.json"
+}

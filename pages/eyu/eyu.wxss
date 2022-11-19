@@ -1,0 +1,164 @@
+.main {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.backimage {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.backbutton {
+    left: 6%;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+}
+
+.backbutton,.helpbutton {
+    height: 30px;
+    position: fixed;
+    top: 3%;
+    width: 30px;
+    z-index: 2;
+}
+
+.helpbutton {
+    left: 85.3%;
+}
+
+.tips {
+    height: 65%;
+    left: 14.7%;
+    position: fixed;
+    top: 17.4%;
+    width: 70.6%;
+    z-index: 10;
+}
+
+.tips image {
+    height: 100%;
+    width: 100%;
+}
+
+.gbhelp {
+    height: 35rpx;
+    left: 72%;
+    position: fixed;
+    top: 21%;
+    width: 35rpx;
+    z-index: 10;
+}
+
+.gbhelp image {
+    height: 100%;
+    width: 100%;
+}
+
+.wuchi {
+    position: fixed;
+    top: 20rpx;
+    width: 95%;
+    z-index: 2;
+}
+
+.wuchi image {
+    height: 100%;
+    width: 100%;
+}
+
+.ya {
+    position: fixed;
+    width: 12%;
+    z-index: 3;
+}
+
+.ya image {
+    width: 100%;
+}
+
+.yi {
+    left: 200rpx;
+    top: 500rpx;
+}
+
+.er {
+    left: 225rpx;
+    top: 590rpx;
+}
+
+.san {
+    left: 220rpx;
+    top: 680rpx;
+}
+
+.si {
+    left: 215rpx;
+    top: 770rpx;
+}
+
+.wu {
+    left: 460rpx;
+    top: 500rpx;
+}
+
+.liu {
+    left: 435rpx;
+    top: 590rpx;
+}
+
+.qi {
+    left: 440rpx;
+    top: 680rpx;
+}
+
+.ba {
+    left: 445rpx;
+    top: 770rpx;
+}
+
+.hejiu {
+    position: fixed;
+    top: 20rpx;
+    width: 95%;
+    z-index: 3;
+}
+
+.yao {
+    float: left;
+    top: 20rpx;
+}
+
+.yao,.yao image {
+    width: 100%;
+}
+
+.chonglai {
+    float: left;
+    margin-left: 25%;
+    position: absolute;
+    top: 80%;
+    width: 50%;
+}
+
+.chonglai image {
+    width: 100%;
+}
+
+.usermotto {
+    border: solid;
+    margin-top: 100px;
+    z-index: 99;
+}
+
+.ggad {
+    margin-left: 10%;
+    width: 80%;
+}

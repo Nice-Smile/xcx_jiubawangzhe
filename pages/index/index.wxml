@@ -1,0 +1,13 @@
+<view class="content">
+   <!-- <ad unit-id="yanjiahao"></ad>-->
+    <view class="info">
+        <view class="title">人生重启模拟器</view>
+        <view class="des">这垃圾人生一秒也不想呆了</view>
+        <view class="des">加油撑到百岁，开启修仙模式</view>
+    </view>
+    <view bindtap="__e" class="start" data-event-opts="{{[ [ 'tap',[ [ 'start',['$event'] ] ] ] ]}}">重启人生</view>
+   
+
+   
+</view>
+

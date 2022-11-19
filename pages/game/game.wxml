@@ -1,0 +1,17 @@
+<view class="game">
+    <view bindtap="__e" class="bg" data-event-opts="{{[ [ 'tap',[ [ 'next',['$event'] ] ] ] ]}}"></view>
+    <view class="items" wx:for="{{dec}}" wx:key="index">
+        <view class="age">{{''+index+'岁'}}</view>
+        <view class="des-info">
+            <view wx:if="{{item.event}}">{{''+item.event+''}}</view>
+            <view wx:if="{{!item.branch&&item.postEvent}}">{{''+item.postEvent+''}}</view>
+            <view wx:if="{{item.branch}}">{{''+item.branch.event+''}}</view>
+            <view style="margin-top:20rpx;" wx:if="{{item.TLT.length>0}}">
+                <view wx:for="{{item.TLT}}" wx:for-index="__i0__" wx:for-item="tlt" wx:key="name">{{'天赋【'+tlt.name+'】发动：'+tlt.description+''}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="bottom"></view>
+    <view class="age-next" wx:if="{{!isDie}}">点击屏幕继续</view>
+    <view bindtap="__e" class="age-next" data-event-opts="{{[ [ 'tap',[ [ 'summarize',['$event'] ] ] ] ]}}" wx:else>总结人生</view>
+</view>

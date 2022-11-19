@@ -1,0 +1,10 @@
+{
+    "navigationBarTitleText": "更多玩法",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false,
+    "navigationStyle": "custom",
+    "disableScroll": true,
+    "usingComponents": {}
+}

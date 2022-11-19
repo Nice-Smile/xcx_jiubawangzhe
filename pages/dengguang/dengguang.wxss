@@ -1,0 +1,89 @@
+.container,.menu-box,page {
+    height: 100%;
+    width: 100%;
+}
+
+.container,.menu-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-box {
+    background: rgba(0,0,0,.151);
+    overflow: hidden;
+    position: fixed;
+    top: 0rpx;
+}
+
+.menu-back {
+    align-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.185);
+    border: 1rpx solid hsla(0,0%,100%,.25);
+    border-radius: 40rpx;
+    color: #fff;
+    font-size: 27rpx;
+    height: 30rpx;
+    justify-content: center;
+    left: 6rpx;
+    position: relative;
+    text-align: center;
+    width: 130rpx;
+}
+
+.menu-body {
+    background: rgba(110,109,108,.664);
+    border-top-left-radius: 5rpx;
+    border-top-right-radius: 5rpx;
+    bottom: 0;
+    position: fixed;
+}
+
+.menu,.menu-body {
+    height: auto;
+    width: 100%;
+}
+
+.menu {
+    background-color: hsla(0,0%,100%,0);
+    border-radius: 15rpx;
+    overflow: hidden;
+    padding-top: 0;
+    position: relative;
+}
+
+.menu .item {
+    float: left;
+    height: 187rpx;
+    text-align: center;
+    width: 33.3%;
+}
+
+.menu .item .a {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu .item .no-border {
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.menu .txt {
+    color: hsla(0,13%,91%,.91);
+    display: block;
+    font-size: 28rpx;
+    height: 28rpx;
+    width: 100%;
+}
+
+.menu .icon {
+    display: block;
+    height: 53rpx;
+    margin: 0 auto 16rpx;
+    width: 53rpx;
+}

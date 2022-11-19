@@ -1,0 +1,42 @@
+.war {
+    height: 100%;
+    margin-left: 3%;
+    width: 94%;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 80rpx;
+}
+
+.title,.zuozhe {
+    height: auto;
+    letter-spacing: 5rpx;
+    width: 100%;
+}
+
+.zuozhe {
+    font-size: 28rpx;
+    line-height: 50rpx;
+    margin-bottom: 20rpx;
+}
+
+.wanfa {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.zhengwen {
+    font-size: 1.1rem;
+    height: auto;
+    letter-spacing: 5rpx;
+    line-height: 60rpx;
+    width: 100%;
+}
+
+.zhu {
+    color: #666;
+    font-size: 24rpx;
+    line-height: 40rpx;
+}

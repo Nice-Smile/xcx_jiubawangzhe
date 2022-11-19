@@ -1,0 +1,95 @@
+.start {
+    bottom: 250rpx;
+}
+
+.share,.start {
+    border: 5rpx solid #eee;
+    border-radius: 50rpx;
+    box-shadow: 5rpx 10rpx 30rpx #919191;
+    left: 50%;
+    padding: 20rpx;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    width: 400rpx;
+}
+
+.share {
+    bottom: 100rpx;
+}
+
+button {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+page {
+    background-color: #222831;
+    color: #eee;
+}
+
+.hand {
+    margin-top: 50rpx;
+    text-align: center;
+}
+
+.title {
+    font-size: 50rpx;
+    font-weight: 700;
+}
+
+.dec {
+    margin-top: 30rpx;
+}
+
+.info {
+    margin-top: 40rpx;
+}
+
+.item {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30rpx;
+    text-align: center;
+}
+
+.msg {
+    font-size: 52rpx;
+    font-weight: 700;
+}
+
+.control {
+    border: 5rpx solid #333;
+    border-radius: 50%;
+    font-size: 80rpx;
+    line-height: 50rpx;
+}
+
+.control,.input {
+    height: 60rpx;
+    text-align: center;
+    width: 60rpx;
+}
+
+.input {
+    border: 5rpx solid #6f6f6f;
+    line-height: 60rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}
+
+.calculate {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 100rpx;
+}
